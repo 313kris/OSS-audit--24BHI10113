@@ -1,0 +1,2 @@
+# OSS-audit--24BHI10113
+├── README.md ├── ├── scripts/ │   ├── script1_system_identity.sh │   ├── script2_package_inspector.sh │   ├── script3_disk_auditor.sh │   ├── script4_log_analyzer.sh │   └── script5_manifesto_generator.sh │  ├── script1_output.png │   ├── script2_output.png │   ├── script3_output.png │   ├── script4_output.png │   └── script5_output.png │ 
