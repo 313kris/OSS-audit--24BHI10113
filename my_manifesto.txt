@@ -1,0 +1,19 @@
+MY OPEN SOURCE MANIFESTO
+
+Date: Sun Mar 29 09:39:01 UTC 2026
+
+Open source software plays an important role in modern technology. It allows people around the world to access, modify, and improve software freely.
+
+I use Git, a powerful distributed version control system, which is freely available under the GNU General Public License. It has helped me understand collaboration, version tracking, and real-world software development.
+
+To me, freedom in software means:
+- Freedom to use software for any purpose
+- Freedom to study how it works
+- Freedom to modify it according to needs
+- Freedom to share improvements with others
+
+I believe that knowledge should not be locked. Open source encourages learning, innovation, and global collaboration.
+
+In the future, I aim to build useful applications such as a study helper or health assistant app and release them as open source so others can learn from and improve them.
+
+Open source is not just about code — it is about sharing knowledge, empowering developers, and building a better technological future together.
