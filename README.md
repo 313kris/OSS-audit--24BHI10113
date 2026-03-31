@@ -1,2 +1,106 @@
-# OSS-audit--24BHI10113
-├── README.md ├── ├── scripts/ │   ├── script1_system_identity.sh │   ├── script2_package_inspector.sh │   ├── script3_disk_auditor.sh │   ├── script4_log_analyzer.sh │   └── script5_manifesto_generator.sh │  ├── script1_output.png │   ├── script2_output.png │   ├── script3_output.png │   ├── script4_output.png │   └── script5_output.png │ 
+OSS Audit — Git
+Student Name: Kristi Roy
+Roll Number: 24BHI10113 
+Chosen Software: Git (GPL v2) 
+Course: Open Source Software Linux
+
+What is this project?
+This is a project for the Open Source Software course. I have chosen Git as my open source software and conducted a full audit of it — covering its origin story, licence analysis, ethics, Linux footprint, ecosystem, and comparison with proprietary alternatives.
+
+Repository Structure
+oss-audit-24BHI10081/
+├── script1_system_identity.sh
+├── script2_package_inspector.sh
+├── script3_disk_auditor.sh
+├── script4_log_analyzer.sh
+├── script5_manifesto.sh
+└── README.md
+
+System Environment 
+OS: Ubuntu 22.04 (WSL2)
+Git Version: 2.34.1
+Shell: Bash 5.1
+
+Script 1: System Identity Report
+
+Displays system information like kernel version, user, uptime, and OS details.
+
+Script 2: Package Inspector
+
+Checks whether Git is installed and displays version and description.
+
+Script 3: Disk and Permission Auditor
+
+Analyzes system directories for disk usage, permissions, and ownership.
+
+Script 4: Log File Analyzer
+
+Counts occurrences of keywords like ERROR or WARNING in log files.
+
+Script 5: Manifesto Generator
+
+Takes user input and generates a personalized open-source philosophy statement.
+
+
+Scripts Overview
+Script	File	What it does
+1	script1_system_identity.sh	Displays system info — kernel, user, uptime, date, OS licence
+2	script2_package_inspector.sh	Checks if Git is installed and prints its philosophy note
+3	script3_disk_auditor.sh	Loops through key Linux folders and shows size and permissions
+4	script4_log_analyzer.sh	Reads a log file and counts how many lines contain a keyword
+5	script5_manifesto.sh	Asks 3 questions and saves a personal OSS manifesto to a file
+Dependencies
+sudo apt update
+sudo apt install git -y
+How to Run
+Step 1 — Clone this repository
+git clone https://github.com/yourusername/oss-audit-24BHI10081.git
+cd oss-audit-24BHI10081
+Step 2 — Give permission to run all scripts
+chmod +x *.sh
+Step 3 — Run each script
+Script 1 — System Identity Report
+
+./script1_system_identity.sh
+Script 2 — Package Inspector
+
+./script2_package_inspector.sh
+Script 3 — Disk and Permission Auditor
+
+./script3_disk_auditor.sh
+Script 4 — Log File Analyzer
+
+./script4_log_analyzer.sh /var/log/dpkg.log warning
+Script 5 — Manifesto Generator
+
+./script5_manifesto.sh
+Shell Concepts Used
+Concept	Used in
+Variables and command substitution $()	Script 1
+if-then-else and case statement	Script 2
+for loop and pipe | with awk	Script 3
+while read loop and arguments $1 $2	Script 4
+read -p for user input and file writing > >>	Script 5
+
+Tested On
+OS: Ubuntu 22.04 (WSL2 on Windows)
+Git version: 2.34.1
+Shell: Bash 5.1
+
+Key Concepts Used
+Linux commands
+Bash scripting
+File permissions
+Loops and conditionals
+Log analysis
+Open-source philosophy
+
+License
+This project follows the MIT License, allowing free use, modification, and distribution with attribution.
+
+Author
+Field	Details
+Name	Kristi Roy
+Roll Number	24BHI10113
+Course	Open Source Software
+Software Audited	Git — licensed under GPL v2
