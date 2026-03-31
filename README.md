@@ -54,8 +54,6 @@ sudo apt update
 sudo apt install git -y
 How to Run
 Step 1 — Clone this repository
-git clone https://github.com/yourusername/oss-audit-24BHI10081.git
-cd oss-audit-24BHI10081
 Step 2 — Give permission to run all scripts
 chmod +x *.sh
 Step 3 — Run each script
